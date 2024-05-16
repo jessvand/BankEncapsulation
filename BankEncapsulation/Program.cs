@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             var account = new BankAccount();
+            
             account.Deposit(5000);
 
             var balance = account.GetBalance();
